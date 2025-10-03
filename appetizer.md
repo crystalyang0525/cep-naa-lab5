@@ -37,3 +37,5 @@ Chill potato salad in the refrigerator before serving for best flavor
 results. Enjoy!
 
 https://www.allrecipes.com/recipe/16729/old-fashioned-potato-salad/
+
+CHANGES MADE: Need to add 2 more eggs
