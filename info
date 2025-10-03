@@ -1,0 +1,143 @@
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 13.0 (22A380)
+      Kernel Version: Darwin 22.1.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Normal
+      Computer Name: Crystal的MacBook Air
+      User Name: Crystal (crystal)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 31 days, 33 minutes
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Air
+      Model Identifier: MacBookAir10,1
+      Model Number: MGN93CH/A
+      Chip: Apple M1
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 8 GB
+      System Firmware Version: 8419.41.10
+      OS Loader Version: 8419.41.10
+      Serial Number (system): FVFJRGZA1WFY
+      Hardware UUID: 67CD14B1-F819-5883-A03E-B222B8C9A2E1
+      Provisioning UDID: 00008103-000270862630C01E
+      Activation Lock Status: Enabled
+
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether ce:54:d7:37:a3:84 
+	inet6 fe80::cc54:d7ff:fe37:a384%anpi0 prefixlen 64 scopeid 0x4 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: none
+	status: inactive
+anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether ce:54:d7:37:a3:85 
+	inet6 fe80::cc54:d7ff:fe37:a385%anpi1 prefixlen 64 scopeid 0x5 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: none
+	status: inactive
+en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether ce:54:d7:37:a3:64 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: none
+	status: inactive
+en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether ce:54:d7:37:a3:65 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: none
+	status: inactive
+en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 36:85:4d:5a:1f:c0 
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 36:85:4d:5a:1f:c4 
+	media: autoselect <full-duplex>
+	status: inactive
+ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 72:ae:d5:2e:a6:38 
+	media: autoselect
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 70:ae:d5:2e:a6:38 
+	inet6 fe80::89d:95f6:6553:981c%en0 prefixlen 64 secured scopeid 0xb 
+	inet 10.248.187.122 netmask 0xfffff000 broadcast 10.248.191.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 36:85:4d:5a:1f:c0 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x0
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 8 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 9 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+awdl0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=6463<RXCSUM,TXCSUM,TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+	ether 8a:88:76:3c:cc:25 
+	inet6 fe80::8888:76ff:fe3c:cc25%awdl0 prefixlen 64 scopeid 0xd 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 8a:88:76:3c:cc:25 
+	inet6 fe80::8888:76ff:fe3c:cc25%llw0 prefixlen 64 scopeid 0xe 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: inactive
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::b4ca:f05a:57f9:964e%utun0 prefixlen 64 scopeid 0xf 
+	nd6 options=201<PERFORMNUD,DAD>
+utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::a80e:b6d6:c0fb:f620%utun1 prefixlen 64 scopeid 0x10 
+	nd6 options=201<PERFORMNUD,DAD>
+utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+	inet6 fe80::ce81:b1c:bd2c:69e%utun2 prefixlen 64 scopeid 0x11 
+	nd6 options=201<PERFORMNUD,DAD>
+utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::93c:a9a1:643a:1498%utun3 prefixlen 64 scopeid 0x12 
+	nd6 options=201<PERFORMNUD,DAD>
+utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::f912:1393:b033:77f2%utun4 prefixlen 64 scopeid 0x13 
+	nd6 options=201<PERFORMNUD,DAD>
+utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::68ea:ca1f:ca1f:f510%utun5 prefixlen 64 scopeid 0x14 
+	nd6 options=201<PERFORMNUD,DAD>
+utun6: flags=8050<POINTOPOINT,RUNNING,MULTICAST> mtu 1400
+	inet 10.29.0.129 --> 10.29.0.129 netmask 0xffffffff 
+utun7: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::3788:174f:8871:5cf%utun7 prefixlen 64 scopeid 0x16 
+	nd6 options=201<PERFORMNUD,DAD>
+utun8: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::22e9:a226:59f1:b2a7%utun8 prefixlen 64 scopeid 0x17 
+	nd6 options=201<PERFORMNUD,DAD>
+crystal
